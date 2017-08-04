@@ -27,7 +27,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dimkadt/go-smtp"
+	"github.com/dimkadt/go-smtp/smtpd"
 	"github.com/golang/net/websocket"
 )
 
