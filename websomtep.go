@@ -27,8 +27,8 @@ import (
 	"strings"
 	"sync"
 
-	"code.google.com/p/go-smtpd/smtpd"
-	"code.google.com/p/go.net/websocket"
+	"github.com/dimkadt/go-smtp"
+	"github.com/golang/net/websocket"
 )
 
 var (
